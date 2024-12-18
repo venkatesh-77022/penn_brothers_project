@@ -47,7 +47,7 @@ class HeaderComponent extends HTMLElement {
                                         <li>
                                             <div class="wt-icon-box-wraper  left">
                                                 <div class="wt-icon-box-xs site-bg-primary radius">
-                                                    <span class="icon-cell site-text-white"><i class="flaticon-location"></i></span>
+                                                    <span class="icon-cell site-text-white"><i ><img src="location.png" style="width:100px; height:30px"></img></i></span>
                                                 </div>
                                                 <div class="icon-content">
                                                     <p>1229 Chestnut St, Unit #316 Adelphia House</p>
@@ -59,7 +59,7 @@ class HeaderComponent extends HTMLElement {
                                         <li>
                                             <div class="wt-icon-box-wraper  left">
                                                 <div class="wt-icon-box-xs site-bg-primary radius">
-                                                    <span class="icon-cell site-text-white"><i class="flaticon-mail"></i></span>
+                                                    <span class="icon-cell site-text-white"><i ><img src="mail.png" style="width:38px; height:40px"></img></i></i></span>
                                                 </div>
                                                 <div class="icon-content">
                                                     <p>Send Us Email</p>
@@ -71,7 +71,7 @@ class HeaderComponent extends HTMLElement {
                                         <li>
                                             <div class="wt-icon-box-wraper left">
                                                 <div class="wt-icon-box-xs site-bg-primary radius">
-                                                    <span class="icon-cell site-text-white"><i class="flaticon-phone-call"></i></span>
+                                                    <span class="icon-cell site-text-white"><i ><img src="phone.png" style="width:28px; height:33px"></img></i></span>
                                                 </div>
                                                 <div class="icon-content">
                                                     <p>Get Quick Support</p>
@@ -174,6 +174,7 @@ class HeaderComponent extends HTMLElement {
         </header>
       `;
     }
+    
   }
   customElements.define('header-component', HeaderComponent);
   
