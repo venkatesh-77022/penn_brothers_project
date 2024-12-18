@@ -105,7 +105,7 @@ class HeaderComponent extends HTMLElement {
                                     <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-between">
 
                                         <ul class=" nav navbar-nav">
-                                            <li class="has-child"><a href="index-2.html">Home</a>
+                                            <li class="has-child"><a href="index.html">Home</a>
                                                 
                                             </li>
 
